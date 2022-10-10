@@ -1,13 +1,13 @@
-## 1. Julia Baulina
+## Julia Baulina
 
-2. Contact info:
+1. Contact info:
 
    - telegram: @julbaulina
    - email: y.nevera@gmail.com
 
-3. I'm really amazed with how web techonologies have been changing our lives for the better and I want to be a part of the system which makes convenient and aesthetically pleasing websites and applications for all kinds of tasks.
+2. I'm really amazed with how web techonologies have been changing our lives for the better and I want to be a part of the system which makes convenient and aesthetically pleasing websites and applications for all kinds of tasks.
 
-4. Stack:
+3. Stack:
 
    - HTML
    - CSS
@@ -17,7 +17,7 @@
    - Typescript
    - REST api
 
-5. some code here
+4. some code here
 
 ```
 const addPriorityToRemaining = () => {
@@ -35,9 +35,9 @@ const addPriorityToRemaining = () => {
 };
 ```
 
-6. completed Algoritmika offline coding bootcamp
+5. completed Algoritmika offline coding bootcamp
 
-7. Completed some online courses on Skillbox, GeekBrains and Scrimba platforms
+6. Completed some online courses on Skillbox, GeekBrains and Scrimba platforms
 
-8. English level: C1
+7. English level: C1
    I've been in love with the English language from early age, and now most of the media I consume is in English. I'd say I've learned it mostly thanks to videogames and podcasts. I've been to a few countries and used the language to communicate with people during those trips.
