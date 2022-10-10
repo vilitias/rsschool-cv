@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://vilitias.github.io/rsschool-cv/cv
