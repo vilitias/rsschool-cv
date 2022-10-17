@@ -9,7 +9,91 @@
 </head>
 <body>
     <div class="centered-container">
-        Baulina Julia
+
+        <header>
+            <img class="profile-photo" src="images/profile-photo.jpg" alt="profile photo">
+            <div class="name-and-contacts">
+                <div class="name">
+                  <h1> Baulina Julia </h1>   
+                  <h2 class="job-title">Junior Frontend Developer</h2>
+                </div>
+                <nav class="contacts">
+                    <ul>
+                        <li>telegram: @julbaulina</li>
+                        <li>email: y.nevera@gmail.com</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <div class="first-section">
+                 <article class="about-me">
+                    <h2>About me</h2>
+                    <p>
+                        I'm really amazed with how web techonologies have been changing our lives for the better and I want to be a part of the system which makes convenient and aesthetically pleasing websites and applications for all kinds of tasks.
+                    </p>
+                </article>
+                <aside class="skills">
+                    <h2>Skills</h2>
+                    <nav>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Git</li>
+                            <li>Typescript basics</li>
+                            <li>REST api</li>
+                            <li>Figma</li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+
+            <section>
+                <h2 id="code-title">Code example</h2>
+                <pre class="code-snippet">
+                    <code>
+                        const addPriorityToRemaining = () => {
+                            let updatedCounter = priorityCounter;
+                            const updatedList = taskList.map((task) => {
+                            if (task.priority === undefined) {
+                                const result = { ...task, priority: updatedCounter };
+                                updatedCounter = updatedCounter + 1;
+                                return result;
+                            } else {
+                                return task;
+                            }
+                            });
+                            setTaskList(updatedList);
+                        };
+                    </code>
+                </pre>
+            </section>
+
+
+            <div class="language-and-edu">
+                <aside class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>English - Upper-Intermediate</li>
+                        <li>Russian - native</li>
+                        <li>Japanese - intermediate</li>
+                    </ul>
+                </aside>
+                <aside class="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Offline bootcamp Algoritmika</li>
+                        <li>Online courses "Frontend developer path" on Scrimba platform</li>
+                    </ul>
+                </aside>
+            </div>
+
+        </main>
+        
 
 
         <footer class="footer">
@@ -17,7 +101,7 @@
                 <a href="https://github.com/vilitias">Check out my github</a>
             </div>
             <div class="rs-logo-container">
-                <a href="https://rs.school/js/"><img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="rs-school-logo"></a>
+                <a href="https://rs.school/js/"><img class="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="rs school logo"></a>
             </div>
             <div class="date">
                 10/2022
