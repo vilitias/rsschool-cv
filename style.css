@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.centered-container {
+    width: 75%;
+}
+
+header {
+    padding: 3% 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: floralwhite;
+}
+
+.profile-photo {
+    width: 250px;
+    border-radius: 5%;
+}
+
+.name {
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 60px;
+}
+.job-title {
+    font-size: 20px;
+}
+
+.contacts ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    background-color: aliceblue;
+    padding: 2% 5%;
+    
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me {
+    width: 66%;
+    font-size: larger;
+    line-height: 1.5;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: floralwhite;
+    padding-right: 15px;
+}
+
+#code-title {
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+    margin: 0;
+}
+.code-snippet {
+    background-color: white;
+}
+
+.language-and-edu {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer {
+    height: 10vh;
+    background-color: floralwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.gh-link {
+    max-width: 116px;
+}
+
+.gh-link a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+
+a:visited, a:active  {
+    color:   black;
+}
+
+
+.rs-logo {
+    width: 120px;
+    height: 60px;
+}
+
+.date {
+    font-size: 30px;
+    color: black;
+}
+
